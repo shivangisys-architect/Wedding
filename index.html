@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shivangi ❤️ Wedding Showcase</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(180deg, #fff, #f7f7f7);
+      color: #222;
+    }
+    header {
+      height: 100vh;
+      background: url('images/hero.jpg') center/cover no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: white;
+    }
+    header::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0,0,0,0.45);
+    }
+    header .content {
+      position: relative;
+      z-index: 1;
+    }
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3.5rem;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      letter-spacing: 1px;
+    }
+    section {
+      padding: 4rem 6%;
+    }
+    .section-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.2rem;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 1.2rem;
+    }
+    .gallery img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 16px;
+      box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+      transition: transform 0.4s ease, box-shadow 0.4s ease;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 20px 40px rgba(0,0,0,0.25);
+    }
+    .quote {
+      max-width: 800px;
+      margin: auto;
+      text-align: center;
+      font-size: 1.1rem;
+      line-height: 1.8;
+      color: #444;
+    }
+    footer {
+      background: #111;
+      color: #aaa;
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+    }
+    footer span {
+      color: #fff;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HERO -->
+  <header>
+    <div class="content">
+      <h1>Shivangi & Partner</h1>
+      <p>A celebration of love, laughter & forever</p>
+    </div>
+  </header>
+
+  <!-- STORY -->
+  <section>
+    <h2 class="section-title">Our Story</h2>
+    <p class="quote">
+      Two journeys. One destiny. This page is a glimpse into the moments that made our wedding unforgettable — crafted with love, elegance, and just a little bit of flex 😉
+    </p>
+  </section>
+
+  <!-- GALLERY -->
+  <section>
+    <h2 class="section-title">Wedding Highlights</h2>
+    <div class="gallery">
+      <img src="images/img1.jpg" alt="Wedding moment">
+      <img src="images/img2.jpg" alt="Wedding moment">
+      <img src="images/img3.jpg" alt="Wedding moment">
+      <img src="images/img4.jpg" alt="Wedding moment">
+      <img src="images/img5.jpg" alt="Wedding moment">
+      <img src="images/img6.jpg" alt="Wedding moment">
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    Crafted with ❤️ by <span>Shivangi</span> | Hosted on GitHub Pages
+  </footer>
+
+</body>
+</html>
